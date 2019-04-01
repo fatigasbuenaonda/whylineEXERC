@@ -1,0 +1,17 @@
+{
+  "name": "magnificent",
+  "version": "1.0.0",
+  "description": "I just serve magnificent responses to your requests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "jshint": "^2.10.2"
+  }
+}
