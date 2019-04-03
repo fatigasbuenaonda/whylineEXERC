@@ -17,13 +17,13 @@ status_app.life='';
 
 app.get('/', (req, res) => {
   if (Math.random() > 0.25) {
-    res.status.send('Magnificent!');
+    res.send('Magnificent!');
     res.statusCode(200);
     arr_status_app.push({sCode:res.statusCode});
     arr_status_app.push({sMessage:res.statusMessage});
     arr_status_app.push({time:new Date()})
   } else {
-    res.status.send('Ooops!');
+    res.send('Ooops!');
     res.statusCode(500);
     arr_status_app.push({sCode:res.statusCode});
     arr_status_app.push({sMessage:res.statusMessage});  }
